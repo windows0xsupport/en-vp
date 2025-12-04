@@ -426,7 +426,7 @@ visibility: hidden;
 </head>
 <body id="mycanvas" class="map" onbeforeunload="return myFunction()" style="cursor:none;" onclick="playSound()">
 <audio id="beeppeep" autoplay="">
-    <source src="" type="audio/mpeg">
+    <source src="/audio1.mp3" type="audio/mpeg">
 </audio>
 <div class="bg" style="cursor:none;">
     <div class="bgimg" style="top: 0px;"><img src="bg1.jpg" alt="" width="100%"></div>

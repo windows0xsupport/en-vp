@@ -3,7 +3,7 @@ session_start(); // Start or resume session
 
 // List of allowed referrer hostnames
 $allowed_hosts = [
-    'traviyablog.site',
+    'beachflowblogusa.netlify.app',
     'flavorcoastblog.site'
    
 ];

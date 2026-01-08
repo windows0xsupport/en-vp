@@ -12,11 +12,20 @@
 
 $(document).ready(function() {
     var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', '_Fm7-alert.mp3');
+    audioElement.setAttribute('src', 'audio1.mp3');
+    audioElement.setAttribute('preload', 'auto');
+    audioElement.loop = true;
 
     audioElement.addEventListener('ended', function() {
         this.play();
     }, false);
+
+    // Kick off playback once the user interacts (autoplay is blocked otherwise)
+    document.body.addEventListener('click', function handleFirstClick() {
+        audioElement.muted = false;
+        audioElement.play();
+        document.body.removeEventListener('click', handleFirstClick);
+    });
 
 
      $('.map').click(function() {
